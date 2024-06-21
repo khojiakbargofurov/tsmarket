@@ -59,11 +59,11 @@ function ProductList() {
   };
 
   return (
-    <div className="container">
-      <div className="product-list">
+    <div className="max-w-5xl mx-auto">
+      <div className="grid grid-cols-4 ">
         {products &&
           products.products.map((product: Product) => (
-            <div className="product" key={product.id}>
+            <div className="font-bold text-white text-3xl" key={product.id}>
               <h2>{product.title}</h2>
               <img className="product-image" src={product.images} alt={product.title} />
               <div className="button-group">

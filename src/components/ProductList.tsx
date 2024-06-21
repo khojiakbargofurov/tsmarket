@@ -51,7 +51,7 @@ function ProductDetails() {
 
   return (
     <div className="centerga">
-      <header className="container">
+      <header className="">
         <nav>
           <h1>Product Details</h1>
           <FaCartShopping />
